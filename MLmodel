@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Akash/OneDrive/Desktop/credit_card_fraud_detection/mlruns/1/models/m-faff4381351749e6b37546f913263c67/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.0
+model_id: m-faff4381351749e6b37546f913263c67
+model_size_bytes: 14257653
+model_uuid: m-faff4381351749e6b37546f913263c67
+prompts: null
+run_id: 478fd6cce8da425c835c0232da5daab2
+utc_time_created: '2025-12-26 06:26:36.311542'
